@@ -1,0 +1,53 @@
+body
+{
+    background:-webkit-radial-gradient(pink, black) ;
+    overflow: hidden;
+}
+
+button
+{
+    width: fit-content;
+    padding: 8px;
+    cursor:pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: bisque;
+}
+
+button:hover
+{
+    background: rgb(182, 74, 121);
+}
+
+.container
+{
+    border: 15px solid black;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message
+{
+    border: 1px solid rgb(17, 2, 2);
+    background: rgb(196, 169, 174);
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 0 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+}
+
+.message input
+{
+    width: 90%;
+    padding: 8 px 0;
+    border-radius: 5px;
+    border: 1px solid pink;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
