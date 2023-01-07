@@ -1,2 +1,2 @@
 # message-passing
-Enter a message
+Enter and pass a message
